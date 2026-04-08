@@ -5,13 +5,12 @@
 
 int main()
 {
-	int sum = 0, val = 50;
-	while (val <= 100) {
-		sum += val;
-		++val;
+	int num = 10;
+	while (num >=0) {
+		std::cout << num << std::endl;
+		--num;
 	}
-	std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
-	return 0;
+	return 0; 
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
