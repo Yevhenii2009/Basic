@@ -5,10 +5,13 @@
 
 int main()
 {
-	std::cout << "Enter two numbers: " << std::endl;
-	int v1 = 0; int v2 = 0;
-	std::cout << "The	sum	of	" << v1 << "	and	" << v2
-		<< "	is	" << v1 + v2 << std::endl;
+	int sum = 0, val = 50;
+	while (val <= 100) {
+		sum += val;
+		++val;
+	}
+	std::cout << "Sum of 50 to 100 inclusive is " << sum << std::endl;
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
